@@ -9,14 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d1773b8fb0accb4498d05765bb15044, type: 3}
-  m_Name: Pregunta2
+  m_Script: {fileID: 11500000, guid: 0a039ff463ef26243a9869878f491561, type: 3}
+  m_Name: Pregunta_1
   m_EditorClassIdentifier: 
-  textoPregunta: "\xBFCu\xE1l es el animal favorito del profe?"
-  respuestaCorrecta: Gato
-  otrasRespuestas:
-  - Perro
-  - Ganzo
-  - Avestruz
-  - Alpaca
-  - Gallina
+  preguntaTexto: 
+  respuestaCorrecta: 
+  respuestasIncorrectas: []

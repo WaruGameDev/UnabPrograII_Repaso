@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1773b8fb0accb4498d05765bb15044, type: 3}
   m_Name: Pregunta1
   m_EditorClassIdentifier: 
-  textoPregunta: 
-  respuestaCorrecta: 
-  otrasRespuestas: []
+  textoPregunta: Test
+  respuestaCorrecta: Correcta
+  otrasRespuestas:
+  - asjhdsjkahsdhakj
+  - kshdkashdkjsahk
+  - aakhskajhdkja
+  - kshadkhask
+  - skhakhaskd
