@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a039ff463ef26243a9869878f491561, type: 3}
   m_Name: Pregunta_2
   m_EditorClassIdentifier: 
-  preguntaTexto: 
-  respuestaCorrecta: 
-  respuestasIncorrectas: []
+  preguntaTexto: Cuando es el examen de progra II
+  respuestaCorrecta: 7 de diciembre
+  respuestasIncorrectas:
+  - 8 noviembre
+  - 9 de diciembre
+  - 5 de enero
+  - 10 de diciembre
+  - hoy

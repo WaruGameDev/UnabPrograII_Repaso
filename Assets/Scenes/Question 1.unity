@@ -453,7 +453,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 710508343}
-        m_MethodName: Answer
+        m_MethodName: Responder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -509,10 +509,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 710508338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849b3736747bd934884ceed4a9d4d60e, type: 3}
+  m_Script: {fileID: 11500000, guid: 353143c0898ca99459c6403ab423d2e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsCorrect: 0
+  esCorrecta: 0
 --- !u!1 &832085102
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,6 +666,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947000940}
   m_CullTransparentMesh: 0
+--- !u!1 &1050988054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1050988056}
+  - component: {fileID: 1050988055}
+  m_Layer: 0
+  m_Name: PreguntaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1050988055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050988054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087594ce0f83d8647b49769ba6812fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cargaPregunta: {fileID: 1633686010}
+  preguntas:
+  - {fileID: 11400000, guid: c6d8d6801e964ed41bc0248ceafcccf5, type: 2}
+  - {fileID: 11400000, guid: 17e34526b05c0f5469f94b5244e392b8, type: 2}
+  index: 0
+  puntaje: 0
+--- !u!4 &1050988056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050988054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 958.4817, y: 747.23883, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074465778
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +799,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1074465783}
-        m_MethodName: Answer
+        m_MethodName: Responder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -806,10 +855,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1074465778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849b3736747bd934884ceed4a9d4d60e, type: 3}
+  m_Script: {fileID: 11500000, guid: 353143c0898ca99459c6403ab423d2e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsCorrect: 0
+  esCorrecta: 0
 --- !u!1 &1088858429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1118,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1117471642}
-        m_MethodName: Answer
+        m_MethodName: Responder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1125,10 +1174,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1117471637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849b3736747bd934884ceed4a9d4d60e, type: 3}
+  m_Script: {fileID: 11500000, guid: 353143c0898ca99459c6403ab423d2e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsCorrect: 0
+  esCorrecta: 0
 --- !u!1 &1190019434
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,55 +1256,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190019434}
   m_CullTransparentMesh: 0
---- !u!1 &1331384602
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1331384604}
-  - component: {fileID: 1331384603}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1331384603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331384602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29448d631db3ba5488e387032fc0051c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  preguntas:
-  - {fileID: 11400000, guid: e50719d7895bce44e816d6a550ec97a2, type: 2}
-  - {fileID: 11400000, guid: 531da38d5c7a19045a651d009f83dd32, type: 2}
-  questionLoader: {fileID: 1771061679}
-  puntaje: 0
-  index: 0
---- !u!4 &1331384604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331384602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 958.4817, y: 747.23883, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392897868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,7 +1340,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1392897873}
-        m_MethodName: Answer
+        m_MethodName: Responder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1396,10 +1396,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1392897868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849b3736747bd934884ceed4a9d4d60e, type: 3}
+  m_Script: {fileID: 11500000, guid: 353143c0898ca99459c6403ab423d2e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsCorrect: 0
+  esCorrecta: 0
 --- !u!1 &1534350265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,7 +1478,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534350265}
   m_CullTransparentMesh: 0
---- !u!1 &1771061678
+--- !u!1 &1633686009
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1486,46 +1486,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1771061680}
-  - component: {fileID: 1771061679}
+  - component: {fileID: 1633686011}
+  - component: {fileID: 1633686010}
   m_Layer: 0
-  m_Name: QuestionLoader
+  m_Name: CargaPregunta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1771061679
+--- !u!114 &1633686010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771061678}
+  m_GameObject: {fileID: 1633686009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e06c31aa803644d48b211362bf40d95a, type: 3}
+  m_Script: {fileID: 11500000, guid: 748fbc15cd925d946baebf2231d65290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: {fileID: 11400000, guid: 531da38d5c7a19045a651d009f83dd32, type: 2}
-  textoPreguntaUI: {fileID: 1190019436}
-  responseCount: 4
-  textoRespuestasUI:
+  pregunta: {fileID: 11400000, guid: c6d8d6801e964ed41bc0248ceafcccf5, type: 2}
+  preguntaUI: {fileID: 1190019436}
+  respuestasUI:
   - {fileID: 601825802}
   - {fileID: 947000942}
   - {fileID: 1806462326}
   - {fileID: 1534350267}
-  ordenPreguntas: []
+  cantidadDeRespuestas: 4
   pool: []
---- !u!4 &1771061680
+  ordenPreguntas: []
+--- !u!4 &1633686011
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771061678}
+  m_GameObject: {fileID: 1633686009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 958.4817, y: 747.23883, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
